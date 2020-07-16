@@ -14,3 +14,11 @@ I've created a simple port, using browserify and included an example to get you 
 
 
 
+
+#### How to Use
+1) run `npm install`
+2) run `npm run build`
+3) open `test.html` to see how to use
+4) include `dist/jsflagr.js` or self host and include in your html
+5) Use as part of Flagr.
+ 
