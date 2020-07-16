@@ -22,3 +22,6 @@ I've created a simple port, using browserify and included an example to get you 
 4) include `dist/jsflagr.js` or self host and include in your html
 5) Use as part of Flagr.
  
+
+
+learn more about us: https://coreteam.io
