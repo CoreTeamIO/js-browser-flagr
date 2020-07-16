@@ -1,0 +1,16 @@
+{
+  "name": "js-browser-flagr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "jsFlagr for the Browser",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "mkdir -p dist && ./node_modules/.bin/browserify ./index.js > ./dist/jsflagr.js"
+  },
+  "author": "",
+  "dependencies": {
+    "browserify": "^16.5.1",
+    "jsflagr": "^1.1.0"
+  }
+}

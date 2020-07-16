@@ -1,0 +1,20 @@
+<html>
+<head>
+    <script src="dist/jsflagr.js" ></script>
+</head>
+
+<script>
+    const evaluationApi = new window.jsFlagr.EvaluationApi()
+    evaluationApi.apiClient.basePath = 'https://stage-flagr.becausemarket.com/api/v1/'
+    evaluationApi.apiClient.enableCookies = true
+    const body = new window.jsFlagr.EvalContext(); // EvalContext | evalution context
+    evaluationApi.postEvaluation(body, (error, result) => {
+      console.log(error, result)
+    })
+</script>
+<body>
+<h1>Loaded!</h1>
+</body>
+</html>
+
+
